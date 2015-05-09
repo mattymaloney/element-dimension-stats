@@ -64,9 +64,9 @@ var dimStats = (function () {
     show: function (subjectSelector, statsTarget, constructType) {
       constructType = constructType || 'pre';
       $subject = $(`${subjectSelector}`);
-      console.log($subject);
+      //console.log($subject);
       stats = this.calc($subject);
-      console.log(stats);
+      //console.log(stats);
       $(`${statsTarget}`).html(this.toHtml());
     }
   };
