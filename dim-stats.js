@@ -72,4 +72,4 @@ var dimStats = (function () {
   };
 }());
 
-dimStats.show('.margins', '.stats');
+//dimStats.show('.margins', '.stats');
