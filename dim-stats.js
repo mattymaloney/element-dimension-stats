@@ -13,8 +13,8 @@ var dimStats = (function () {
       return `<pre>${text}</pre>`;
     },
     
-    calc: function () {
-      var $div = $subject, // TODO - references to $div should 
+    calc: function (...args) {
+      var $div = args[0] || $subject, // TODO - references to $div should 
                            // be changed to $subject.
       		div = $div[0];
       
